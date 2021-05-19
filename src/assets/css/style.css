@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'MyFont';
+  src:
+    url('../fonts/grenze.woff2') format('woff2'),
+    url('../fonts/grenze.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}

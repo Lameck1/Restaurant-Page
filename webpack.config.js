@@ -2,16 +2,22 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    app: './src/index.js',
+  },
   plugins: [
     new HtmlWebpackPlugin({ template: 'src/assets/template/index.html' }),
   ],
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
   devtool: 'source-map',
+  devServer: {
+    contentBase: './dist',
+    port: 3000,
+  },
   module: {
     rules: [
       {

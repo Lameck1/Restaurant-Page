@@ -1,8 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
 @font-face {
-  font-family: 'MyFont';
+  font-family: 'Grenze';
   src:
     url('../fonts/grenze.woff2') format('woff2'),
     url('../fonts/grenze.woff') format('woff');
-  font-weight: 600;
+  font-weight: 100;
   font-style: normal;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  padding: 20px;
+  color: #363738;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  padding: 20px;
+  color: #363738;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul li::marker {
+  content: none;
+}
+
+ul {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+li {
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+menu {
+  background-color: rgba(156, 157, 161, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  border-bottom: 1px solid #808080;
+  width: 70%;
+  margin: 0 auto;
+}
+
+menuitem {
+  margin: 0 10px;
+  color: white;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+menuitem:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+#content {
+  background-color: rgba(156, 157, 161, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  min-height: 90vh;
+  margin: 0 auto;
+}
+
+.phrase,
+.time,
+.about {
+  width: 60%;
+  padding: 20px;
+  color: #363738;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.phrase {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #5d6d7e;
+  letter-spacing: 10px;
+}
+
+.about {
+  border-top: 5px solid #5d6d7e;
+  border-bottom: 5px solid #5d6d7e;
+}
+
+.contact-section {
+  background: inherit;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  width: 80%;
+}
+
+.contact-div,
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-div p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.food-menu {
+  padding: 30px;
+}
+
+.img-div {
+  height: 25vh;
+  border-radius: 5px 5px 0 0;
+}
+
+.food-detail-div {
+  padding: 5px;
+}
+
+.food-name {
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+}
+
+.food-price {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+}
+
+li:hover {
+  box-shadow: 0 0 11px #ffff;
+}
+
+li:nth-of-type(1) .img-div {
+  background-image: url(../images/Chapati-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(2) .img-div {
+  background-image: url(../images/Kachumbari-Salad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(3) .img-div {
+  background-image: url(../images/Matoke.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(4) .img-div {
+  background-image: url(../images/Ngwacii.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(5) .img-div {
+  background-image: url(../images/Peanut-Soup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(6) .img-div {
+  background-image: url(../images/Sweet-Potato-Salad-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(7) .img-div {
+  background-image: url(../images/Tsimbapachiro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li:nth-of-type(8) .img-div {
+  background-image: url(../images/Usuu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

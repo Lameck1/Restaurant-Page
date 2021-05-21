@@ -275,56 +275,56 @@ li:hover {
 }
 
 li:nth-of-type(1) .img-div {
-  background-image: url(../images/Chapati-1.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626432/restaurant-page/Chapati-1_mztfyj.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(2) .img-div {
-  background-image: url(../images/Kachumbari-Salad.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626432/restaurant-page/Kachumbari-Salad_ryatxn.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(3) .img-div {
-  background-image: url(../images/Matoke.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626432/restaurant-page/Matoke_a5iknv.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(4) .img-div {
-  background-image: url(../images/Ngwacii.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626432/restaurant-page/Ngwacii_h2lmf8.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(5) .img-div {
-  background-image: url(../images/Peanut-Soup.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626432/restaurant-page/Peanut-Soup_z19btc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(6) .img-div {
-  background-image: url(../images/Sweet-Potato-Salad-1.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626432/restaurant-page/Sweet-Potato-Salad-1_tamfty.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(7) .img-div {
-  background-image: url(../images/Tsimbapachiro.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626433/restaurant-page/Tsimbapachiro_buogov.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 li:nth-of-type(8) .img-div {
-  background-image: url(../images/Usuu.jpg);
+  background-image: url(https://res.cloudinary.com/dssc4mht3/image/upload/v1621626433/restaurant-page/Usuu_cfj241.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

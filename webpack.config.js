@@ -12,6 +12,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: 'Restaurant-Page',
     clean: true,
   },
   devtool: 'source-map',

@@ -11,9 +11,9 @@
 
 ## About Project
 
-Simple Restaurant Page built with JavaScript and webpack. JavaScript has been used to create all the page elements while webpack has been used to bundel the JavaScript code and assets.
+Simple Restaurant Page built with JavaScript and webpack. JavaScript has been used to create all the page elements while webpack has been used to bundle the JavaScript code and assets.
 
-![screenshot](./screenshot.png)
+![screenshot](./src/assets/images/screenshot.png)
 
 ## [Live Demo](https://lameck1.github.io/Restaurant-Page/)
 
@@ -39,7 +39,7 @@ Simple Restaurant Page built with JavaScript and webpack. JavaScript has been us
 
 * On the comandline, at the project's root, run ```npm i``` to install app dependencies
 
-* Next, run ```npm start``` which will build the project from ```src``` directory and served into memory
+* Next, run ```npm start``` which will build the project from ```src``` directory and serve into memory
 
 * Go to ```http://localhost:3000/``` to interact with the app
 

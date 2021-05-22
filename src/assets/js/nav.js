@@ -1,7 +1,6 @@
 import createElem from './createElem';
 
 export default () => {
-  // renders nav section
   const content = document.getElementById('content');
 
   const menu = createElem('MENU', { class: 'menu' });

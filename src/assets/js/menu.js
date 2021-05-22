@@ -1,7 +1,6 @@
 import createElem from './createElem';
 
 export default () => {
-  // renders menu section
   const content = document.getElementById('content');
   const foodMenu = [
     {

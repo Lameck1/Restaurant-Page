@@ -45,9 +45,9 @@ Simple Restaurant Page built with JavaScript and webpack. JavaScript has been us
 
 * ## ALTERNATIVELY
 
-* Just run ```npm build``` or ```npx build``` which will build the project and generate out files into the ```dist``` directory.
+* Just run ```npm run build``` or ```npx webpack``` which will build the project and generate output files into the ```dist``` directory.
 
-* Go to ```dist``` directory and manually open index.html to interact with the app
+* Go to ```dist``` directory and manually open ```index.html``` to interact with the app
 
 ## Contributing
 

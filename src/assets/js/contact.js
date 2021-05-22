@@ -1,7 +1,6 @@
 import createElem from './createElem';
 
 export default () => {
-  // renders contact section
   const content = document.getElementById('content');
 
   const contactSection = createElem('section', { class: 'contact-section' });

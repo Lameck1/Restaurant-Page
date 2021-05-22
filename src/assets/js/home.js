@@ -1,7 +1,6 @@
 import createElem from './createElem';
 
 export default () => {
-  // renders home page
   const content = document.getElementById('content');
   const header = createElem('h1', {}, 'Pendo Dishes');
   const phrase = createElem('p', { class: 'phrase' }, 'Hasty and tasty!');

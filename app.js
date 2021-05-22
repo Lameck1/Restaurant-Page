@@ -511,7 +511,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
-  // renders nav section
   const content = document.getElementById('content');
 
   const menu = (0,_createElem__WEBPACK_IMPORTED_MODULE_0__.default)('MENU', { class: 'menu' });
@@ -555,7 +554,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
-  // renders home page
   const content = document.getElementById('content');
   const header = (0,_createElem__WEBPACK_IMPORTED_MODULE_0__.default)('h1', {}, 'Pendo Dishes');
   const phrase = (0,_createElem__WEBPACK_IMPORTED_MODULE_0__.default)('p', { class: 'phrase' }, 'Hasty and tasty!');
@@ -577,7 +575,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
-  // renders menu section
   const content = document.getElementById('content');
   const foodMenu = [
     {
@@ -651,7 +648,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
-  // renders contact section
   const content = document.getElementById('content');
 
   const contactSection = (0,_createElem__WEBPACK_IMPORTED_MODULE_0__.default)('section', { class: 'contact-section' });
